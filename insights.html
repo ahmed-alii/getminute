@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./public/styles/main.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand py-0" href="#">
+            <img src="./public/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Workspace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="insights.html">Insights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calendar.html">Calendar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="insights">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <h5 class="">Insights</h5>
+                <span class="small fw-light">From
+                    <span class="fst-italic fw-normal">
+                        <span>Aug 8,2022</span> - <span>Jul 8,2022</span>
+                    </span>
+                </span>
+            </div>
+            <div class="col-md-9 text-end">
+                <div class="w-auto d-flex align-items-center justify-content-end">
+                    <span class="small">Insights Duration</span>
+                    <div class="btn-group btn-group-sm ps-2">
+                        <a href="#" class="btn btn-primary-custom active">7 Days</a>
+                        <a href="#" class="btn btn-primary-custom">30 Days</a>
+                        <a href="#" class="btn btn-primary-custom">90 Days</a>
+                        <a href="#" class="btn btn-primary-custom">Custom</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="stats row my-4">
+            <div class="col-md-3">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-wrapper">
+                                    <i class="fa fa-clock icon"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="h4 m-0">20</h5>
+                                <span class="small fst-italic">Meetings</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-wrapper">
+                                    <i class="fa fa-hourglass icon"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="h4 m-0">20 Hours</h5>
+                                <span class="small fst-italic">Time Spent</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-wrapper">
+                                    <i class="fa fa-dollar icon"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="h4 m-0">$ 9999</h5>
+                                <span class="small fst-italic">Meetings Cost</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-wrapper">
+                                    <i class="fa-solid fa-signal"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h5 class="h4 m-0">High</h5>
+                                <span class="small fst-italic">Overall Effectiveness</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="meeting-charts row mt-5">
+            <div class="col-md-6 mb-4">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="h6 fw-bold">Meeting Effectiveness</h5>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <select name="" id="" class="form-select form-select-sm w-auto">
+                                    <option value="#">By Type</option>
+                                    <option value="#">By Group Size</option>
+                                    <option value="#">By Region: MiddleEast</option>
+                                    <option value="#">By Country: India</option>
+                                    <option value="#">By Cost</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-white mt-4 rounded p-2">
+                            <canvas id="effectiveness" width="400" height="260"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card card-blue h-100">
+                    <div class="card-body h-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="h6 fw-bold">Time Spent</h5>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <select name="" class="form-select form-select-sm w-auto">
+                                    <option value="#">By Type</option>
+                                    <option value="#">By Group Size</option>
+                                    <option value="#">By Region: MiddleEast</option>
+                                    <option value="#">By Country: India</option>
+                                    <option value="#">By Cost</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-white mt-4 rounded p-2">
+                            <canvas id="time" height="380"></canvas>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="meeting-charts row mt-5">
+            <div class="col-md-12 mb-4">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <h5 class="h5 fw-bold mb-0">Time Analytics</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-blue h-100">
+                    <div class="card-body h-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="h6 fw-bold">On External Emails</h5>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <select name="" class="form-select form-select-sm w-auto">
+                                    <option value="#">By Type</option>
+                                    <option value="#">By Group Size</option>
+                                    <option value="#">By Region: MiddleEast</option>
+                                    <option value="#">By Country: India</option>
+                                    <option value="#">By Cost</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-white mt-4 rounded p-2">
+                            <canvas id="external" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-blue h-100">
+                    <div class="card-body h-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="h6 fw-bold">On Internal Meetings</h5>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <select name="" class="form-select form-select-sm w-auto">
+                                    <option value="#">By Type</option>
+                                    <option value="#">By Group Size</option>
+                                    <option value="#">By Region: MiddleEast</option>
+                                    <option value="#">By Country: India</option>
+                                    <option value="#">By Cost</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-white mt-4 rounded p-2">
+                            <canvas id="internal" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-blue h-100">
+                    <div class="card-body h-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="h6 fw-bold">By Function</h5>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <select name="" class="form-select form-select-sm w-auto">
+                                    <option value="#">By Type</option>
+                                    <option value="#">By Group Size</option>
+                                    <option value="#">By Region: MiddleEast</option>
+                                    <option value="#">By Country: India</option>
+                                    <option value="#">By Cost</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-white mt-4 rounded p-2">
+                            <canvas id="network" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <h5 class="h6">Meetings per day</h5>
+                        <br>
+                        <div class="bg-white rounded p-2">
+                            <table class="table table-responsive table-hover">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Meeting</th>
+                                    <th scope="col">Time/Date</th>
+                                    <th scope="col">Cost</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>10:00 | 22 Aug, 2022</td>
+                                    <td>$ 200</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+        integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./public/js/insights.js"></script>
+</body>
+</html>

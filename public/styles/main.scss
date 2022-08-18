@@ -4,6 +4,24 @@ body {
     font-family: 'Ubuntu', sans-serif !important;
 }
 
+$main-bg: #F4F8FF;
+
+@mixin customPrimaryButton(){
+    .btn-primary-custom {
+        background-color: #CAF1FC;
+        color: #2463A5;
+        font-weight: 500;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        &.active{
+            background-color: #a1dae8;
+        }
+    }
+}
+
+
 .navbar {
     //background-color: #F4F8FF !important;
     background: rgb(255, 255, 255);
@@ -18,7 +36,23 @@ body {
         font-size: 14px;
     }
 }
+@include customPrimaryButton();
 
+.pill-orange {
+    background-color: #fce4b9;
+}
+
+.pill-green {
+    background-color: #c0fdce;
+}
+
+.pill-blue {
+    background-color: #CAF1FC;
+}
+.badge {
+    color: black;
+    font-weight: 400;
+}
 .events {
     .main-grid {
         display: grid;
@@ -57,6 +91,7 @@ body {
                 }
 
                 .aside-container {
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
                     & > * {
                         display: none;
                     }
@@ -89,8 +124,8 @@ body {
                         rotate: 40deg;
                     }
                 }
-
                 .aside-container {
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
                     & > * {
                         display: none;
                     }
@@ -259,13 +294,19 @@ body {
         .focus-container-wrapper {
 
             .focus-container {
-                background-color: white;
-                height: calc(100vh - 176px);
-                min-height: calc(100vh - 176px);
+                //background-color: white;
+                height: calc(100vh - 226px);
+                min-height: calc(100vh - 226px);
                 overflow-x: hidden;
                 overflow-y: scroll;
-                border-radius: 8px;
-                padding: 10px 6px;
+                //border-radius: 8px;
+                //padding: 10px 6px;
+                .section{
+                    background-color: white;
+                    border-radius: 8px;
+                    padding: 10px 6px;
+                    margin-bottom: 12px;
+                }
 
                 .focus-item {
                     padding: 6px;
@@ -338,6 +379,34 @@ body {
                         font-size: 14px;
                         display: inline;
                     }
+                    .meta{
+                        height: 0;
+                        visibility: hidden;
+                        padding-top: 0;
+                        font-size: 12px;
+                        transition: all 100ms ease-in-out;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .source-heading{
+                            font-weight: 500;
+                        }
+                    }
+                    &:not(:hover){
+                        .meta{
+                            *{
+                                opacity: 0;
+                            }
+                        }
+                    }
+                    &:hover{
+                        .meta{
+                            height: auto;
+                            visibility: visible;
+                            padding-top: 10px;
+                        }
+                    }
                 }
             }
         }
@@ -358,22 +427,7 @@ body {
                 padding-left: 6px;
             }
 
-            .badge {
-                color: black;
-                font-weight: 400;
-            }
 
-            .pill-orange {
-                background-color: #fce4b9;
-            }
-
-            .pill-green {
-                background-color: #c0fdce;
-            }
-
-            .pill-blue {
-                background-color: #CAF1FC;
-            }
 
             .feedback{
                 button{
@@ -385,25 +439,45 @@ body {
         }
 
         .notes-section {
-            margin-top: 30px;
+            margin-top: 18px;
 
 
             .meeting-notes-container {
                 background-color: #F4F8FF;
                 border-radius: 8px;
                 padding: 10px 6px;
-                height: calc(100vh - 280px);
+                height: calc(100vh - 310px);
             }
         }
     }
+}
 
-    .btn-primary-custom {
+.insights{
+    @include customPrimaryButton();
+
+    .stats{
+        .card-body{
+            padding: 6px;
+        }
+    }
+    .icon-wrapper{
+        border: 0;
+        border-radius: 6px;
+        padding: 6px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
         background-color: #CAF1FC;
         color: #2463A5;
-        font-weight: 500;
-    }
-    .modal-backdrop {
-        //background-color: #CAF1FC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
+}
+
+.card-blue{
+    background-color: $main-bg;
+    border: none;
+    border-radius: 8px;
 }

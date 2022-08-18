@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./public/styles/main.css">
 
 </head>
-<body class="events">
+<body>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand py-0" href="#">
@@ -30,328 +30,436 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="index.html">Workspace</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Actions</a>
+                    <a class="nav-link" href="insights.html">Insights</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Insights</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Calendar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Events</a>
+                    <a class="nav-link" href="calendar.html">Calendar</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<main class="main-grid" data-left="expanded" data-right="expanded">
-    <aside class="left-aside">
-        <button class="toggler">
-            <i class="fa-solid fa-arrow-up"></i>
-        </button>
-        <div class="container-fluid aside-container">
-            <div class="calendar-container-wrapper">
-                <div class="calendar-container d-flex align-items-center justify-content-center">
-                    <span class="text-muted small">calendar here</span>
-                </div>
-            </div>
-            <div class="events-container-wrapper">
-                <div class="events-container">
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry active">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-entry">
-                        <div class="row w-100 align-items-center m-0">
-                            <div class="col-10 title-container">
-                                <span>Block - No meeting Time</span>
-                            </div>
-                            <div class="col-2 action-container">
-                                <button class="video-button">
-                                    <i class="fa fa-video"></i>
-                                </button>
-                            </div>
-                        </div>
+<div class="events">
+    <main class="main-grid" data-left="expanded" data-right="expanded">
+        <aside class="left-aside">
+            <button class="toggler">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class="container-fluid aside-container">
+                <div class="calendar-container-wrapper">
+                    <div class="calendar-container d-flex align-items-center justify-content-center">
+                        <span class="text-muted small">calendar here</span>
                     </div>
                 </div>
-            </div>
+                <div class="events-container-wrapper">
+                    <div class="events-container">
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry active">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-entry">
+                            <div class="row w-100 align-items-center m-0">
+                                <div class="col-10 title-container">
+                                    <span>Block - No meeting Time</span>
+                                </div>
+                                <div class="col-2 action-container">
+                                    <button class="video-button">
+                                        <i class="fa fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-    </aside>
-    <section class="main-section">
-        <div class="container-fluid pt-3">
-            <div class="header">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4 class="fw-bold h5 title">Lorem ipsum dolor sit amet.</h4>
-                        <div class="time-date">
+            </div>
+        </aside>
+        <section class="main-section">
+            <div class="container-fluid pt-3">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h4 class="fw-bold h5 title">Lorem ipsum dolor sit amet.</h4>
+                            <div class="time-date">
                             <span class="pe-2"><i
                                     class="fa fa-calendar pe-2"></i><span>Tuesday - 22 aug, 2022</span></span>
-                            &nbsp;
-                            <span><i class="fa fa-clock pe-2"></i> <span>7:00am to 8:00am</span></span>
-                            &nbsp;
-                            <span>|</span>
-                            &nbsp;
-                            <span><i class="fa fa-dollar"></i> <span>300</span></span>
+                                &nbsp;
+                                <span><i class="fa fa-clock pe-2"></i> <span>7:00am to 8:00am</span></span>
+                                &nbsp;
+                                <span>|</span>
+                                &nbsp;
+                                <span><i class="fa fa-dollar"></i> <span>300</span></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 text-end">
-                        <button class="btn btn-sm btn-light text-decoration-none small"
-                                data-bs-toggle="modal" data-bs-target="#attModal">
-                            <i class="fa-solid fa-users pe-2"></i>
-                            Attendees
-                        </button>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-md-12">
-                        <span class="rounded-pill pill-green badge"><i class="fa fa-check"></i> Accepted</span>
-                        <span class="rounded-pill pill-orange badge"><i class="fa-solid fa-spa"></i> Focus Time</span>
-
-                        <div class="small ps-2 text-dark d-inline-flex align-items-center feedback">
-                            Feedback
-                            <button class="btn btn-sm btn-link text-decoration-none text-black-50 "
-                                    data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                        <div class="col-md-5 text-end">
+                            <button class="btn btn-sm btn-light text-decoration-none small"
+                                    data-bs-toggle="modal" data-bs-target="#attModal">
+                                <i class="fa-solid fa-users pe-2"></i>
+                                Attendees
+                            </button>
+                            <button class="btn btn-sm btn-light text-decoration-none small "
+                                    data-bs-toggle="modal" data-bs-target="#tagModal">
+                                <i class="fa-solid fa-tag"></i>
+                            </button>
+                            <button class="btn btn-sm btn-light text-decoration-none small "
+                                    data-bs-toggle="modal" data-bs-target="#alertModal">
+                                <i class="fa-solid fa-bell"></i>
                             </button>
                         </div>
                     </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12 mb-3">
+                            <span class="rounded-pill pill-green badge"><i class="fa fa-check"></i> Accepted</span>
+                            <span class="rounded-pill pill-orange badge"><i class="fa-solid fa-spa"></i> Focus Time</span>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="small ps-2 text-dark d-inline-flex align-items-center feedback">
+                                Feedback
+                                <button class="btn btn-sm btn-link text-decoration-none text-black-50 "
+                                        data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="notes-section">
-                <div class="row my-1">
-                    <div class="col-md-8">
-                        <h5 class="h6 fw-bold text-dark">Meeting Notes</h5>
-                    </div>
-                    <div class="col-md-4 text-end">
-                        <button class="btn btn-sm btn-primary-custom me-1"><i class="fa fa-envelope"></i> Email Notes</button>
-                    </div>
-                </div>
-                <div class="container-fluid meeting-notes-container d-flex align-items-center justify-content-center">
-                    <span class="small text-muted">text editor here</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <aside class="right-aside">
-        <button class="toggler">
-            <i class="fa-solid fa-arrow-up"></i>
-        </button>
-        <div class="container-fluid aside-container">
-            <div class="title-wrapper">
-                <h4>Focus Stream</h4>
-            </div>
-            <div class="focus-container-wrapper">
-                <div class="focus-container">
-                    <div class="focus-item pinned">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
+                <div class="notes-section">
+                    <div class="row my-1">
+                        <div class="col-md-8">
+                            <h5 class="h6 fw-bold text-dark">Meeting Notes</h5>
                         </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item pinned">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
+                        <div class="col-md-4 text-end">
+                            <button class="btn btn-sm btn-primary-custom me-1"><i class="fa fa-envelope"></i> Email Notes</button>
                         </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
                     </div>
-                    <div class="focus-item pinned">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
-                    </div>
-                    <div class="focus-item ">
-                        <div class="actions">
-                            <button><i class="fa-solid fa-thumbtack"></i></button>
-                        </div>
-                        <label><input type="checkbox" class="form-check-input"></label>
-                        <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                    <div class="container-fluid meeting-notes-container d-flex align-items-center justify-content-center">
+                        <span class="small text-muted">text editor here</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </aside>
-</main>
+        </section>
+        <aside class="right-aside">
+            <button class="toggler">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class="container-fluid aside-container">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="title-wrapper">
+                        <h4 class="m-0">Focus Stream</h4>
+                    </div>
+                    <div>
+                        <div class="btn-group btn-group-sm">
+                            <button type="button" class="btn btn-sm rounded" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-sort"></i>
+                            </button>
+                            <ul class="dropdown-menu small">
+                                <li><a class="dropdown-item small" href="#">All</a></li>
+                                <li><a class="dropdown-item small" href="#">Pending</a></li>
+                                <li><a class="dropdown-item small" href="#">Completed</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a class="dropdown-item small" href="#"><i class="fa-solid fa-arrow-up small pe-2"></i> Priority</a></li>
+                                <li><a class="dropdown-item small" href="#"><i class="fa-solid fa-hourglass small pe-2"></i> Due Date</a></li>
+                                <li><a class="dropdown-item small" href="#"><i class="fa-solid fa-briefcase small pe-2"></i> Effort</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="focus-container-wrapper">
+                    <div class="action-input d-flex align-items-center justify-content-center mb-3">
+                        <input type="text" class="form-control-sm form-control border-light"
+                        placeholder="Type your action here!">
+                        <button class="btn btn-sm btn-primary-custom ms-1">Add</button>
+                    </div>
+                    <div class="focus-container">
+                        <div class="section">
+                            <h4 class="h6 px-2 m-0 fw-bold">Just in</h4>
+                            <div class="focus-item pinned">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <div>
+                                    <label><input type="checkbox" class="form-check-input"></label>
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                                    <div class="meta">
+                                        <div class="w-50">
+                                            <span class="source-heading">Source</span>
+                                            <br>
+                                            <span>Meeting name here</span>
+                                        </div>
+                                        <div class="w-50 text-end">
+                                            <span class="badge rounded-pill bg-light text-black-50">Some Tag</span>
+                                            <span class="badge rounded-pill bg-light text-black-50">Some Tag</span>
+                                            <span class="badge rounded-pill bg-light text-black-50">Some Tag</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h4 class="h6 px-2 m-0 fw-bold">Pinned</h4>
+                            <div class="focus-item pinned">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <div>
+                                    <label><input type="checkbox" class="form-check-input"></label>
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                                    <div class="meta">
+                                        <div class="text-end">
+                                            <span class="source-heading">Source: </span>
+                                            <span>Meeting name here</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="focus-item pinned">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <div>
+                                    <label><input type="checkbox" class="form-check-input"></label>
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                                    <div class="meta">
+                                        <div class="text-end">
+                                            <span class="source-heading">Source: </span>
+                                            <span>Meeting name here</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="focus-item pinned">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <div>
+                                    <label><input type="checkbox" class="form-check-input"></label>
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                                    <div class="meta">
+                                        <div class="text-end">
+                                            <span class="source-heading">Source: </span>
+                                            <span>Meeting name here</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="focus-item pinned">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <div>
+                                    <label><input type="checkbox" class="form-check-input"></label>
+                                </div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                                    <div class="meta">
+                                        <div class="text-end">
+                                            <span class="source-heading">Source: </span>
+                                            <span>Meeting name here</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h4 class="h6 px-2 m-0 fw-bold">All</h4>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                            <div class="focus-item ">
+                                <div class="actions">
+                                    <button><i class="fa-solid fa-thumbtack"></i></button>
+                                </div>
+                                <label><input type="checkbox" class="form-check-input"></label>
+                                <p>Lorem ipsum dolor sit amet, a v b d consectetur adipisicing elit. Magni?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+</div>
 
 <!--Feedback Modal-->
 <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModal" aria-hidden="true">
@@ -448,6 +556,57 @@
         </div>
     </div>
 </div>
+
+<!--Alert Modal-->
+<div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-white">
+            <div class="modal-header border-0">
+                <h5 class="modal-title">Send Alert</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>This will send an alert to the organizers of this meeting.</p>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary-custom btn-sm" data-bs-dismiss="modal">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Tag Modal-->
+<div class="modal fade" id="tagModal" tabindex="-1" aria-labelledby="alertModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-white">
+            <div class="modal-header border-0">
+                <h5 class="modal-title">Meeting Tags</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-4">
+                    <h4 class="h6 fw-normal text-dark">Add New Tag</h4>
+                    <div class="input-group input-group-sm">
+                        <input type="text" placeholder="Tag" class="form-control form-control-sm me-2 rounded">
+                        <button class="btn btn-primary-custom rounded btn-sm px-5">Add</button>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="h6 fw-normal text-dark">Current Tags</h4>
+                    <span class="rounded-pill pill-orange badge"><i class="fa-solid fa-spa"></i> Focus Time</span>
+                    <span class="rounded-pill pill-blue badge"><i class="fa-solid fa-spa"></i> Demo Time Tag</span>
+                    <span class="rounded-pill pill-green badge"><i class="fa-solid fa-spa"></i> Free Time</span>
+                </div>
+
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <script src="./public/js/main.js"></script>
